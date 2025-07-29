@@ -1,0 +1,19 @@
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer p,
+.footer h5 {
+  font-size: 14px;
+}
+
+.footer hr {
+  opacity: 0.1;
+}

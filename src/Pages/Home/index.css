@@ -1,0 +1,22 @@
+
+.sectionHead{
+ 
+  width: 320px; /* Fixed width for same size */
+  height: 60px;  /* Fixed height */
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border: solid black 0.05rem;
+  border-radius: 2mm;
+  color: rgb(213, 61, 61);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* About Us specific style */
+
+

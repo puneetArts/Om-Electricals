@@ -1,0 +1,37 @@
+.explore-container {
+  width: 100%;
+  
+  padding: 40px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.explore-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.icon-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.icon-item {
+  cursor: pointer;
+  text-align: center;
+  width: 100px;
+  transition: transform 0.3s ease;
+}
+
+.icon-item:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 10px;
+}

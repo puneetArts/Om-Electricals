@@ -1,0 +1,58 @@
+.Contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem;
+  flex-wrap: wrap;
+}
+
+/* Shared button styles */
+.b1 {
+  width: 220px; /* Fixed width for same size */
+  height: 60px;  /* Fixed height */
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 9999px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(26, 24, 24, 0.2);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* About Us specific style */
+.b1 {
+  background-color: #434141; 
+}
+
+.b1:hover {
+  background-color:rgb(56, 142, 241);
+  transform: scale(1.05);
+}
+
+/* WhatsApp specific style */
+.b2 {
+  background-color: #25D366;
+}
+
+.b2:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
+}
+
+/* Remove default link styling */
+.b1 a,
+.b2 a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  justify-content: center;
+}
