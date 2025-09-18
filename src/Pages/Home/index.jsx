@@ -7,23 +7,23 @@ import ProductCard from '../../Components/ProductCard';
 import GalleryCard from '../../Components/Gallery';
 import Contact from '../../Components/Contact/Contact';
 // 🌞 Solar Images
-import solar1 from '../../assets/images/solar1.jpg';
-import solar2 from '../../assets/images/solar2.jpeg';
-import solar3 from '../../assets/images/solar3.jpeg';
+import solar1 from '../../assets/images/solar1.png';
+import solar2 from '../../assets/images/solar2.png';
+import solar3 from '../../assets/images/solar3.png';
 
 // 📹 CCTV Images
-import cctv1 from '../../assets/images/cctv1.jpeg';
-import cctv2 from '../../assets/images/cctv2.jpeg';
-import cctv3 from '../../assets/images/cctv3.jpeg';
+import cctv1 from '../../assets/images/cctv1.png';
+import cctv2 from '../../assets/images/cctv2.png';
+import cctv3 from '../../assets/images/cctv3.png';
 
 // 🔋 UPS Images
-import ups1 from '../../assets/images/ups1.jpeg';
-import ups2 from '../../assets/images/ups2.jpeg';
-import ups3 from '../../assets/images/ups3.jpeg';
+import ups1 from '../../assets/images/ups1.png';
+import ups2 from '../../assets/images/ups2.png';
+import ups3 from '../../assets/images/ups3.png';
 
-import earth1 from '../../assets/images/earth1.jpeg';
-import earth2 from '../../assets/images/earth2.jpeg';
-import earth3 from '../../assets/images/earth3.png';
+import earth1 from '../../assets/images/copper.png';
+import earth2 from '../../assets/images/gi.png';
+import earth3 from '../../assets/images/bfc.jpg';
 import { FaWhatsapp } from 'react-icons/fa';
 
 
@@ -38,6 +38,9 @@ import G8 from '../../assets/images/gallary/G8.jpg';
 import G9 from '../../assets/images/gallary/G9.jpg';
 import G10 from '../../assets/images/gallary/G10.jpg';
 import G11 from '../../assets/images/gallary/G11.jpg';
+import G12 from '../../assets/images/gallary/G12.png';
+import G13 from '../../assets/images/gallary/G13.jpg';
+import G14 from '../../assets/images/gallary/G14.png';
 
 
 
@@ -114,14 +117,14 @@ function Home() {
             justifyContent: 'center',
           }}
         >
-          <ProductCard image={solar1} title="6-Panel Setup" desc="Efficient solar solution for rooftops." />
+          <ProductCard image={solar1} title="Thin-Film Panels" desc="Flexible and lightweight, for unique usecases." />
           <ProductCard
             image={solar2}
-            title="Portable Solar Kit"
+            title="Polycrystalline Panels"
             desc="Compact and easy-to-install units."
             highlight
           />
-          <ProductCard image={solar3} title="Industrial Solar Grid" desc="High-output system for businesses." />
+          <ProductCard image={solar3} title="Monocrystalline Panels" desc="High-output system for businesses." />
         </div>
       </div>
 
@@ -136,14 +139,14 @@ function Home() {
             justifyContent: 'center',
           }}
         >
-          <ProductCard image={cctv1} title="360° Dome Camera" desc="Full HD rotating surveillance camera." />
+          <ProductCard image={cctv1} title="360° Dome CCTV Camera" desc="Full HD discreet, wide-angle surveillance for indoor spaces." />
           <ProductCard
             image={cctv2}
-            title="Bullet Camera"
-            desc="Outdoor camera with night vision."
+            title="Bullet CCTV Camera"
+            desc="Visible, long-range deterrent outdoor camera."
             highlight
           />
-          <ProductCard image={cctv3} title="Wireless IP Camera" desc="Easy to install, remote access enabled." />
+          <ProductCard image={cctv3} title="PTZ (Pan-Tilt-Zoom) Camera" desc="Remotely controlled, dynamic surveillance for large areas." />
         </div>
       </div>
 
@@ -158,14 +161,14 @@ function Home() {
             justifyContent: 'center',
           }}
         >
-          <ProductCard image={ups1} title="Home UPS" desc="Reliable backup for residential needs." />
+          <ProductCard image={ups1} title="Standby (Offline) UPS" desc="The connected equipment runs on utility power under normal conditions." />
           <ProductCard
             image={ups2}
-            title="Industrial UPS"
-            desc="Heavy-duty solution for factories."
+            title="Line-Interactive UPS"
+            desc="Adjust to minor voltage fluctuations without switching to battery mode."
             highlight
           />
-          <ProductCard image={ups3} title="Online UPS" desc="Continuous power with double conversion." />
+          <ProductCard image={ups3} title="Online (Double Conversion) UPS" desc="Continuously converts incoming AC power to DC, and then back to clean AC power." />
         </div>
       </div>
 
@@ -218,6 +221,9 @@ function Home() {
               <GalleryCard image={G9} />
               <GalleryCard image={G10} />
               <GalleryCard image={G11} />
+              <GalleryCard image={G12} />
+              <GalleryCard image={G13} />
+              <GalleryCard image={G14} />
 
               {/* <GalleryCard image={solar3} />
               <GalleryCard image={earth2} />

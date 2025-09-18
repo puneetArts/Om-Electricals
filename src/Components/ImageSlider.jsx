@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './ImageSlider.css';
-import banner1 from '../assets/images/banner1.png';
+import banner1 from '../assets/images/banner6.png';
 import banner2 from '../assets/images/banner2.png';
-import banner3 from '../assets/images/banner3.png';
-import banner4 from '../assets/images/banner4.png';
+import banner3 from '../assets/images/banner8.jpg';
+import banner4 from '../assets/images/banner5.jpg';
 
 const images = [banner1, banner2, banner3, banner4];
 
