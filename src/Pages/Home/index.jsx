@@ -1,22 +1,22 @@
 import React, { useRef } from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+// import { NavLink, useNavigate } from 'react-router-dom';
 import './index.css';
 import ImageSlider from '../../Components/ImageSlider';
 import CategorySection from '../../Components/CategorySection';
 import ProductCard from '../../Components/ProductCard';
 import GalleryCard from '../../Components/Gallery';
 import Contact from '../../Components/Contact/Contact';
-// 🌞 Solar Images
+// Solar Images
 import solar1 from '../../assets/images/solar1.png';
 import solar2 from '../../assets/images/solar2.png';
 import solar3 from '../../assets/images/solar3.png';
 
-// 📹 CCTV Images
+// CCTV Images
 import cctv1 from '../../assets/images/cctv1.png';
 import cctv2 from '../../assets/images/cctv2.png';
 import cctv3 from '../../assets/images/cctv3.png';
 
-// 🔋 UPS Images
+// UPS Images
 import ups1 from '../../assets/images/ups1.png';
 import ups2 from '../../assets/images/ups2.png';
 import ups3 from '../../assets/images/ups3.png';
@@ -46,7 +46,6 @@ import G14 from '../../assets/images/gallary/G14.png';
 
 function Home() {
   const scrollRef = useRef(null);
-  const navigate = useNavigate();
 
   const scrollGallery = (scrollOffset) => {
     if (scrollRef.current) {

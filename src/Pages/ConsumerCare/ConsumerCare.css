@@ -1,0 +1,61 @@
+.consumer-care-page {
+  background-color: #f9fafb;
+  color: #333;
+}
+
+.consumer-header .consumer-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0056b3;
+}
+
+.consumer-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #fd0d11;
+  margin-bottom: 1rem;
+}
+
+.info-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.info-card ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.whatsapp-btn, .phone-btn, .email-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #27cb53;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-btn:hover, .phone-btn:hover, .email-btn:hover {
+  background-color: #0056b3;
+}

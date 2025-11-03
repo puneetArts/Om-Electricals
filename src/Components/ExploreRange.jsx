@@ -1,4 +1,3 @@
-// src/Components/ExploreRange.js
 import React from "react";
 import "./ExploreRange.css";
 import { FaFan, FaLightbulb, FaShower, FaBolt, FaTools } from "react-icons/fa";

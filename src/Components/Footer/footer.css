@@ -1,19 +1,53 @@
-.footer a {
-  color: #ccc;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
+html {
+  scroll-behavior: smooth;
 }
 
-.footer a:hover {
-  color: #fff;
-  text-decoration: underline;
+/* Footer Base */
+.footer {
+  background-color: #111;
+  color: #ddd;
+}
+
+.footer h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .footer p,
-.footer h5 {
-  font-size: 14px;
+.footer a {
+  font-size: 0.95rem;
 }
 
+/* Footer Links */
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+/* Button Links (for scrolling) */
+.footer-btn-link {
+  background: none;
+  border: none;
+  color: #bbb;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  transition: color 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.footer-btn-link:hover {
+  color: #fff;
+}
+
+/* Divider */
 .footer hr {
-  opacity: 0.1;
+  border-color: rgba(255, 255, 255, 0.1);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }

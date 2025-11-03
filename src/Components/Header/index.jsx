@@ -46,7 +46,7 @@ function Header() {
             <Nav className="ms-auto align-items-center">
                <Nav.Link as={Link} to="/about" onClick={() => setExpanded(false)}>About Us</Nav.Link>
               
-              <Nav.Link as={Link} to="/categories" onClick={() => setExpanded(false)}>Categories</Nav.Link>
+             
               
               <Nav.Link as={Link} to="/consumer-care" onClick={() => setExpanded(false)}>Consumer Care</Nav.Link>
              
