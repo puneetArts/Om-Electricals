@@ -180,7 +180,7 @@ function Home() {
       <div id="ups" style={{ background: "#122936", padding: "40px" }}>
         <h2
           className="sectionHead"
-          style={{ fontSize: "24px", marginBottom: "20px",textAlign:"center" }}
+          style={{ fontSize: "24px", marginBottom: "20px" }}
         >
           UPS Systems
         </h2>

@@ -50,16 +50,16 @@ function Header() {
             {/* Assistant */}
             <div
               className="d-flex mx-auto my-2 my-md-0"
-              style={{ maxWidth: "300px", flexGrow: 1 }}
+              style={{ maxWidth: "420px", flexGrow: 1 }}
             >
-              <div className="assist-bar rounded-pill w-100 d-flex align-items-center justify-content-center gap-2">
+              <div className="assist-bar rounded-pill w-460 d-flex align-items-center justify-content-center gap-2">
                 <Nav.Link
                   as={Link}
                   to="/chatbot"
                   onClick={() => setExpanded(false)}
                   className="d-flex align-items-center gap-2"
                 >
-                  Have a question? Ask our assistant! <RiChatAiFill size={30} />
+                  Have a question?  Ask our assistant! <RiChatAiFill size={30} />
                 </Nav.Link>
               </div>
             </div>

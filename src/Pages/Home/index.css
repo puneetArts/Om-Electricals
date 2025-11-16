@@ -1,5 +1,6 @@
 .main-home{
   background-color: #122936;
+  
 }
 .sectionHead{
  
@@ -12,11 +13,14 @@
   border-radius: 2mm;
   color: rgb(213, 61, 61);
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  text-align: center ;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 4rem;
+  margin: 70px auto 80px !important;
+   transition: all 0.3s ease;
 }
 
 /* About Us specific style */
