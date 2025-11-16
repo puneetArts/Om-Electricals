@@ -26,7 +26,7 @@ const CategorySection = () => {
 
   return (
     <div className="category-section">
-      <h4 >Explore </h4>
+      <h4 style={{ color:'white'}}>Explore </h4>
       <h1 style={{ color:'#e64920'}}><b>Our Range</b></h1>
       <div className="category-icons">
         {categories.map((cat) => (

@@ -26,7 +26,7 @@ function Header() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <header className="shadow-sm bg-white">
+    <header style={{ background: "#122936" }}>
       <Navbar expand="md" expanded={expanded} className="py-2 px-4">
         <Container fluid>
           {/* Logo as Link */}
@@ -66,22 +66,25 @@ function Header() {
 
             {/* Navigation Links */}
             <Nav className="ms-auto align-items-center">
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => setExpanded(false)}
-              >
-                About Us
-              </Nav.Link>
+  <Nav.Link
+    as={Link}
+    to="/about"
+    onClick={() => setExpanded(false)}
+    style={{ color: "white" }}   
+  >
+    About Us
+  </Nav.Link>
 
-              <Nav.Link
-                as={Link}
-                to="/consumer-care"
-                onClick={() => setExpanded(false)}
-              >
-                Consumer Care
-              </Nav.Link>
-            </Nav>
+  <Nav.Link
+    as={Link}
+    to="/consumer-care"
+    onClick={() => setExpanded(false)}
+    style={{ color: "white" }}   
+  >
+    Consumer Care
+  </Nav.Link>
+</Nav>
+
 
             {/* Icons */}
             <div className="d-flex ms-3 mt-3 mt-md-0 gap-2">
