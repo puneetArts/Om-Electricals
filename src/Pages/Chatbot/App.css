@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(13, 24, 32);
   font-family: sans-serif;
   padding: 20px;
 }
@@ -70,8 +70,8 @@
 }
 
 .message.assistant .message-content {
-  background-color: #226f75;
-  color: white;
+  background-color: #f0f0eb;
+  color: rgb(57, 55, 55);
 }
 
 /* Typing indicator */
@@ -123,3 +123,38 @@
 .input-area .back-home-btn {
   background-color: #555; /* different color for Back button */
 }
+
+/* Side Navigation Buttons */
+.side-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 70px;
+  color: #625f5f;
+}
+
+.left-nav {
+  left: 20px;
+}
+
+.right-nav {
+  right: 20px;
+}
+
+.side-nav button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #226f75;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.side-nav button:hover {
+  background-color: #2f3232;
+}
+

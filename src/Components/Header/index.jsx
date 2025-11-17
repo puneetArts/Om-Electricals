@@ -26,7 +26,7 @@ function Header() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <header style={{ background: "#122936" }}>
+    <header className='header' >
       <Navbar expand="md" expanded={expanded} className="py-2 px-4">
         <Container fluid>
           {/* Logo as Link */}

@@ -45,7 +45,7 @@
 .section-title {
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: rgb(31, 100, 143) !important;
   margin-bottom: 1.25rem;
 }
 
@@ -60,8 +60,8 @@ p {
   padding: 2rem;
   border-radius: 12px;
   max-width: 655px;
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-color);
+  background-color: rgb(229, 224, 224) !important;
+  border: 1px solid rgb(0, 221, 255);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 

@@ -13,7 +13,7 @@ function About() {
       <Container className="py-5">
 
 <section className="about-us-header text-center mb-5">
-  <h1 className="about-us-title">Welcome to Om Electricals</h1>
+  <h1 className="about-us-title">Welcome to Om Electricals Sales & Services</h1>
   <p className="about-us-subtitle">
     Your trusted partner for reliable and efficient electrical solutions, from earthing and lighting to solar and UPS systems.
   </p>

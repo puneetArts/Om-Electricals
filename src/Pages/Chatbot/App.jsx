@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import './App.css';
+import Header from "../../Components/Header";
 
 
 
@@ -32,7 +33,7 @@ function App() {
     }
 
     // Add welcome message from assistant
-    setMessages([{ sender: 'assistant', text: 'Welcome! How can I assist you today?' }]);
+    setMessages([{ sender: 'assistant', text: 'Hi, I am AiOM — an AI assistant for OM ELECTRICALS. How can I assist you?' }]);
   }, []);
 
   const threadId = threadIdRef.current;
@@ -80,13 +81,22 @@ function App() {
     }
   }
 
-  function handleBackHome() {
-    window.location.href = "/";
-  }
+  // function handleBackHome() {
+  //   window.location.href = "/";
+  // }
 
   return (
     <div className="app-container">
-      <div className="chat-box">
+       {/* <Header/> */}
+
+      {/* Left Side Buttons */}
+    <div className="side-nav left-nav">
+      <h5>Quick Access</h5>
+      <button onClick={() => window.location.href = "/"}>«  Back to Home</button>
+      <button onClick={() => window.location.href = "/consumer-care"}>Contact Details</button>
+      <button onClick={() => window.location.href = "/about"}>About Us</button>
+    </div>
+      <div className="chat-box  p-3" style={{ border: "0.3px solid gray" }}>
         {/* Chat Area */}
         <div ref={chatContainerRef} className="chat-messages">
           {messages.map((msg, idx) => (
@@ -108,10 +118,13 @@ function App() {
           ></textarea>
           <div className="button-group">
             <button onClick={handleSend}>Ask</button>
-            <button onClick={handleBackHome} className="back-home-btn">Back to Home</button>
+            {/* <button onClick={handleBackHome} className="back-home-btn">Back to Home</button> */}
           </div>
         </div>
       </div>
+        <div className="side-nav right-nav">
+      {/* <button onClick={() => window.location.href = "/about"}>About Us</button> */}
+    </div>
     </div>
   );
 }
