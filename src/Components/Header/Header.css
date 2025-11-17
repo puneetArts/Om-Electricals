@@ -2,7 +2,7 @@
   display: flex;
   padding: 25px 30px;
   color: rgb(232, 223, 223);
-  border: 0.5px solid rgb(121, 117, 117);
+  border: 0.5px solid rgb(112, 130, 136);
   width: 460px;
   height: 35px;
   margin: 3px;
@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 15px !important;
+  border-radius: 10px !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   
@@ -26,9 +26,9 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
    background: linear-gradient(
     135deg,
-    rgba(13, 36, 42, 0.4),
+    rgba(16, 20, 23, 0.7),
     rgba(17, 101, 123, 0.4),
-    rgba(22, 54, 61, 0.5),
+    rgba(16, 33, 46, 0.7),
     rgba(16, 93, 110, 0.7)  /* third color */
   );
 }

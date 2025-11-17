@@ -59,7 +59,7 @@ function Header() {
                   onClick={() => setExpanded(false)}
                   className="d-flex align-items-center gap-2"
                 ><RiChatAiFill size={21} />
-                  Have a question?  Ask our assistant! 
+                  Have a question?  Ask our Assistant
                 </Nav.Link>
               </div>
             </div>
