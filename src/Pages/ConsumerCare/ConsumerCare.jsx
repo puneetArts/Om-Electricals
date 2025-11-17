@@ -25,7 +25,7 @@ function ConsumerCare() {
               <p>
                 Our dedicated support team is here to resolve any queries or technical issues you may face with our products and services.
               </p>
-              <ul>
+              <ul className="custom-list">
                 <li>24x7 Assistance</li>
                 <li>Installation & Setup Guidance</li>
                 <li>Product Troubleshooting</li>
@@ -36,7 +36,7 @@ function ConsumerCare() {
               <p>
                 We stand behind the quality of our products. For warranty claims, replacements, or returns, please reach out with your invoice or purchase details.
               </p>
-              <ul>
+              <ul className="custom-list">
                 <li>Hassle-free Claim Process</li>
                 <li>Original Parts Replacement</li>
                 <li>Quick Turnaround</li>
@@ -53,12 +53,12 @@ function ConsumerCare() {
           </p>
           <Row className="justify-content-center mt-4">
             <Col md={4} className="info-card">
-              <h5>Lucknow</h5>
+              <h5>Jankipuram</h5>
               <p>Plot no. 2 Shiv Vihar Colony, Jankipuram, Lucknow, Uttar Pradesh, 226021</p>
             </Col>
             <Col md={4} className="info-card">
-              <h5>Kanpur</h5>
-              <p>45, Mall Road, Kanpur, Uttar Pradesh</p>
+              <h5>Rajauli</h5>
+              <p>Rajauli, Lucknow Uttar Pradesh, 226026</p>
             </Col>
           </Row>
         </section>

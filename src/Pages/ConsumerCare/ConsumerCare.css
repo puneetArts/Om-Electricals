@@ -59,3 +59,21 @@
 .whatsapp-btn:hover, .phone-btn:hover, .email-btn:hover {
   background-color: #0056b3;
 }
+/* Remove bullets */
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Make text blue */
+.custom-list li {
+  color: #196b91; /* Bootstrap blue */
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+.custom-list li::before {
+  content: "➜ ";
+  color: #196b91;
+  font-weight: bold;
+}
