@@ -58,8 +58,8 @@ function Header() {
                   to="/chatbot"
                   onClick={() => setExpanded(false)}
                   className="d-flex align-items-center gap-2"
-                >
-                  Have a question?  Ask our assistant! <RiChatAiFill size={30} />
+                ><RiChatAiFill size={21} />
+                  Have a question?  Ask our assistant! 
                 </Nav.Link>
               </div>
             </div>

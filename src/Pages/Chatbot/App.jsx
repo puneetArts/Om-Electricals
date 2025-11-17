@@ -98,7 +98,7 @@ function App() {
     </div>
       <div className="chat-box  p-3" style={{ border: "0.3px solid gray" }}>
         {/* Chat Area */}
-        <div ref={chatContainerRef} className="chat-messages">
+        <div ref={chatContainerRef} className="chat-messages" >
           {messages.map((msg, idx) => (
             <div key={idx} className={`message ${msg.sender}`}>
               <div className="message-content">{msg.text}</div>
@@ -109,7 +109,9 @@ function App() {
         </div>
 
         {/* Input Area */}
-        <div className="input-area">
+        <div className="input-area" style={{ border: "0.2px solid gray",
+          borderRadius:"12px"
+         }}>
           <textarea
             ref={textareaRef}
             onKeyDown={handleEnter}

@@ -60,7 +60,7 @@
 .message-content {
   max-width: 70%;
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 12px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
@@ -71,7 +71,8 @@
 
 .message.assistant .message-content {
   background-color: #f0f0eb;
-  color: rgb(57, 55, 55);
+  color: rgb(7, 30, 35);
+  font-size: 0.97rem;
 }
 
 /* Typing indicator */

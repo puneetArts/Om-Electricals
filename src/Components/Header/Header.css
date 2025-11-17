@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 15px !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   
@@ -22,14 +22,14 @@
 
 /* Hover effect: rise up */
 .assist-bar:hover {
-  transform: translateY(-3px); /* slightly higher lift */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  /*transform: translateY(-3px);  slightly higher lift */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
    background: linear-gradient(
     135deg,
     rgba(13, 36, 42, 0.4),
-    rgba(21, 155, 188, 0.4),
+    rgba(17, 101, 123, 0.4),
     rgba(22, 54, 61, 0.5),
-    rgba(21, 134, 159, 0.7)  /* third color */
+    rgba(16, 93, 110, 0.7)  /* third color */
   );
 }
 
@@ -38,7 +38,8 @@ header {
 
   position: sticky;
   top: 0;
-  height: 90px;
+  height: 80px;
+  border-bottom: 1px solid white;
   z-index: 1000;
   background-color: #1d3d4b;
  
